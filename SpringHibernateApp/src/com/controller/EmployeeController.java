@@ -42,7 +42,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public ModelAndView saveEmployee(@ModelAttribute("command") Employee employee) {
 		employeeService.addEmployee(employee);
-		String message="record added successfully";
+		String message="record added successfully now you can check it";
 		return new ModelAndView("redirect:employees.html?message="+message);
 
 	}
