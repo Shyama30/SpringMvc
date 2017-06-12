@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+.login-style, .reg-style {
+	background-color: #66c2ff;
+	border: 2px solid #4d004d;
+	margin: 100px 350px;
+	padding: 50px;
+	width: 500px;
+}
+
+#p3 {
+	padding-left: 70px;
+}
+
+#p3 a {
+	text-decoration: none;
+	border: 1px solid #660033;
+}
+
+#p4 {
+	padding-left: 90px;
+}
+
